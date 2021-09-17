@@ -1,0 +1,91 @@
+.navbar-brand {
+	font-size: 35px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.nav-item {
+	font-size: 25px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link.active:hover {
+	color: #ffce44;
+}
+.navbar-dark .navbar-brand:hover {
+	color: #ffce44;
+}
+body {
+	background: #d3d3d3;
+}
+.main {
+	height: 1200px;
+}
+.img-fluid {
+	margin-top: 80px;
+}
+
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+}
+.footer {
+	background: #292b2c;
+	color: white;
+
+	.links {
+		ul {
+			list-style-type: none;
+		}
+		li a {
+			color: white;
+			transition: color .2s;
+			&:hover {
+				text-decoration: none;
+				color: #4180cb;
+			}
+		}
+	}
+	.about-company {
+		i {
+			font-size: 25px;
+		}
+		a {
+			color: white;
+			transition: color .2s;
+			&:hover {
+				color: #4180cb;
+			}
+		}
+	}
+	.location {
+		i {
+			font-size: 18px;
+		}
+	}
+	.copyright p {
+		border-top: 1px solid rgba(255, 255, 255, .1);
+	}
+}
+
+.main .container input[type=text] {
+	border: none;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+.mb-3 input {
+	border: none;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+.mb-3 textarea {
+	border: none;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+.form-label {
+	font-family: 'Ubuntu', sans-serif;
+}
